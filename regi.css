@@ -1,0 +1,118 @@
+*{
+    margin: 0; 
+    padding: 0;  
+    box-sizing: border-box;   
+}   
+header{
+    width:100%;
+    height:100vh;
+    background-image:url(Pha\ reg.png);  
+    background-repeat: no-repeat;   
+    background-size: 100% 100%;  
+} 
+.logo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -95px;
+    left: calc(50% - 70px);  
+    margin-left:-43%;  
+}  
+form{
+    background-color:rgb(18, 185, 207);    
+    font-size:  20px; 
+    font-weight: bold;   
+    width: 28%;
+    height: 200%;
+    top: 50%;
+    left: 52%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 20px 50px;   
+ 
+}  
+
+
+::placeholder{
+    position: relative; 
+    text-align: center; 
+    text-transform: uppercase; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}    
+.heading h1{
+    color: rgb(73, 161, 233);  
+    margin-left:7.2% ;  
+    margin-top:1% ;  
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    
+}
+.heading h2{
+    color: rgb(14, 6, 116); 
+    margin-left:2%;    
+    margin-top:-28% ;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+ 
+label{
+    color: rgb(24, 6, 124);    
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-transform: uppercase;  
+   font-size:20px;
+   
+}  
+.regi input[type="text"]{
+    padding:6px ;  
+    width:90% ;  
+    border-radius:14px ;  
+    border:none ;
+}  
+.regi input[type="email"]{
+    padding:6px ;  
+    width:90% ;  
+    border-radius:14px ;  
+    border:none ;
+}  
+.regi input[type="address"]{
+    padding:6px ;  
+    width:90% ;  
+    border-radius:14px ;  
+    border:none ;
+}  
+.regi input[type="mobile"]{
+    padding:6px ;  
+    width:90% ;  
+    border-radius:14px ;  
+    border:none ;
+}
+.regi input[type="button"]{
+    background-color: rgb(4, 54, 112);  
+    border:none;   
+    width:40% ;  
+    height:7%; 
+    border-radius:16px ;  
+    margin-left: 25%;  
+    color: rgb(55, 203, 248);  
+    text-transform: uppercase; 
+    font-weight: bold;
+}  
+.regi img{
+    margin-left:68% ;  
+    margin-top:-22% ;
+}  
+button{
+    background-color: rgb(4, 54, 112);  
+    border:none;   
+    width:40% ;  
+    height:7%; 
+    border-radius:16px ;  
+    margin-left: 25%;  
+    color: rgb(55, 203, 248);  
+    text-transform: uppercase; 
+    font-weight:bold;
+}
+  
+
